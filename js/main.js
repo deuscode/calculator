@@ -7,6 +7,13 @@ function toDisplay(x) {
   }
 }
 
+function backSpace() {
+    var currentNum = displayBox.value;
+    var numLength = currentNum.length - 1;
+    var newNum = currentNum.substring(0, numLength);
+    displayBox.value = newNum;
+}
+
 function percentageNum() {
     var x = displayBox.value;
     displayBox.value = x / 100;
