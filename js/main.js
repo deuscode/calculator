@@ -54,6 +54,12 @@ function fractionNum() {
     displayBox.value = 1 / x;
 }
 
+// make the current number negative
+function positiveNegative() {
+    var x = displayBox.value
+    displayBox.value = x * -1;
+}
+
 // find the answer to the current problem
 function equateAnswer() {
     var x = displayBox.value;
