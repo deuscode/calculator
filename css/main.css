@@ -21,6 +21,15 @@ body {
     text-align: center;
 }
 
+a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightslategray;
+}
+
 #calculator {
     background-color: rgba(38, 36, 111, 0.80);
     width: 500px;
